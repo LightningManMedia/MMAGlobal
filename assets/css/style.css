@@ -772,9 +772,9 @@ Animation
 .vision h1 { 
   font-size: 5em;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
   .vision h1 { 
-    font-size: 2.75em;
+    font-size: 3.2em;
 
   }
 }
@@ -841,6 +841,18 @@ Animation
   color: #eee;
 }
 
+@media (max-width: 575px) {
+
+.vision .title-02 { 
+
+ padding-top: 0;
+
+}
+.vision .title-01 { 
+  padding-top: 40%;
+}
+}
+
 .vision .owl-nav, .vision .owl-dots {
   margin-top: 5px;
   text-align: center;
@@ -870,7 +882,14 @@ Animation
     width: 80%;
   }
 }
+@media (max-width: 992px) {
 
+.vision .title-02 { 
+
+  padding-bottom: 12em;
+
+}
+}
 /*--------------------------------------------------------------
 # My Portfolio
 --------------------------------------------------------------*/
