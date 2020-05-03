@@ -972,6 +972,7 @@ Animation
   border-radius: 5px;
   position: relative;
   overflow: hidden;
+  margin-top: 3em;
 }
 
 .row-about { 
@@ -981,9 +982,19 @@ Animation
   background-size: cover;
 }
 
+@media (max-width: 768px) { 
+  .row-about { 
+    background: url("../img/asset-1-mobile.png") top center no-repeat;
+    background-size: contain;
+  }
+  .boxes { 
+    margin-top: 7em !important;
+  }
+
+}
 
 #about-pt-2 { 
-  padding: 0;
+  /*padding: 0;*/
   
 }
 
