@@ -1227,16 +1227,21 @@ Animation
   }
 }
 /*--------------------------------------------------------------
-# Forward
+# About
 --------------------------------------------------------------*/
-#forward {
+#about {
   background: url("../img/asset-2-v1.png") top center no-repeat;
-  background-size: cover;
+  background-size: contain;
   color: #fff;
   font-size: 14px;
   text-align: center;
   padding: 80px 0;
   position: relative;
+}
+@media (max-width: 575px) {
+  #about { 
+  background-size: cover;
+  }
 }
 
 /*--------------------------------------------------------------
