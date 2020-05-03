@@ -54,13 +54,13 @@ h3 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #ffb727;
+  background: #0d3562;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #ffc550;
+  background: #3677c1;
   color: #fff;
 }
 
@@ -105,14 +105,14 @@ h3 {
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 12px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Rubik", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #ffc85a;
+  color: #4084d0;
   text-decoration: none;
 }
 
@@ -217,15 +217,15 @@ h3 {
   position: fixed;
   top: 55px;
   right: 15px;
-  bottom: 15px;
+  bottom: auto;
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: #fff;
+ background: #050e18;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
   padding: 10px 0;
 }
 
@@ -238,14 +238,14 @@ h3 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #3b434a;
+  color: white;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #ffb727;
+  color: #4084d0;
   text-decoration: none;
 }
 
@@ -378,7 +378,7 @@ h3 {
 }
 
 #hero .btn-scroll:hover {
-  color: #ffb727;
+  color: #4084d0;
 }
 
 @media (min-width: 1024px) {
