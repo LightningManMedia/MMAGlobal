@@ -10,7 +10,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: 'Roboto', sans-serif;
-    color: #444444;
+    color: white;
+    background-color: #050e18;
 }
 
 a {
@@ -32,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 h3 { 
   font-weight: 700;
 }
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -358,6 +360,13 @@ h3 {
   text-transform: uppercase;
 }
 
+.bottom-third { 
+  align-items: center;
+  text-align: center;
+}
+.separate { 
+  padding-bottom: 15%;
+}
 #hero .btn-scroll {
   transition: 0.4s;
   color: rgba(255, 255, 255, 0.6);
