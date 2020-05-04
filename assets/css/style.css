@@ -25,6 +25,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6, .logo {
   font-family: 'Rubik', sans-serif;
+  font-style: italic;
   text-transform: uppercase;
   color: white;
   font-weight: 900;
