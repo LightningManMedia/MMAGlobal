@@ -387,7 +387,7 @@ h3 {
   }
 }
 @media (max-width: 870px) {
-  .title-02 { 
+ #hero .title-02 { 
     padding-left: 50%;
   }
 
@@ -767,18 +767,38 @@ Animation
   background-position: center center;
   background-size: cover;
   position: relative;
+  min-height: 550px;
 }
-
+.vision p { 
+position: absolute;
+bottom: 0;
+left: 0;
+padding-left: 13%;
+padding-right: 13%;
+}
 .vision h1 { 
   font-size: 5em;
 }
-@media (max-width: 1050px) {
+
+@media (max-width: 1024px) {
   .vision h1 { 
     font-size: 3.2em;
 
   }
 }
 
+.vision .title-01 { 
+  position: absolute;
+  padding: 0;
+  left: 10%;
+  top: 20%;
+}
+.vision .title-02 { 
+  position: absolute;
+  left: 60%;
+  top: 40%;
+  padding: 0;
+}
 .vision::before {
   content: "";
   position: absolute;
@@ -793,54 +813,6 @@ Animation
   margin-bottom: 40px;
 }
 
-.vision .testimonial-item {
-  text-align: center;
-  color: #fff;
-}
-
-.vision .testimonial-item .testimonial-img {
-  width: 100px;
-  border-radius: 50%;
-  border: 6px solid rgba(255, 255, 255, 0.15);
-  margin: 0 auto;
-}
-
-.vision .testimonial-item h3 {
-  font-size: 20px;
-  font-weight: bold;
-  margin: 10px 0 5px 0;
-  color: #fff;
-}
-
-.vision .testimonial-item h4 {
-  font-size: 14px;
-  color: #ddd;
-  margin: 0 0 15px 0;
-}
-
-.vision .testimonial-item .quote-icon-left, .vision .testimonial-item .quote-icon-right {
-  color: rgba(255, 255, 255, 0.4);
-  font-size: 26px;
-}
-
-.vision .testimonial-item .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
-}
-
-.vision .testimonial-item .quote-icon-right {
-  display: inline-block;
-  right: -5px;
-  position: relative;
-  top: 10px;
-}
-
-.vision .testimonial-item p {
-  font-style: italic;
-  margin: 0 auto 15px auto;
-  color: #eee;
-}
 .vision .title-01 h3 { 
   padding-left: 2%;
 }
@@ -897,26 +869,9 @@ text-align: center;
 
 }
 
-.vision .title-02 h3 { 
+/*.vision .title-02 h3 { 
   padding-right: 25%;
-}
-.vision .owl-nav, .vision .owl-dots {
-  margin-top: 5px;
-  text-align: center;
-}
-
-.vision .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.4) !important;
-}
-
-.vision .owl-dot.active {
-  background-color: #ffb727 !important;
-}
+}*/
 
 @media (min-width: 1024px) {
   .vision {
@@ -924,19 +879,14 @@ text-align: center;
   }
 }
 
-@media (min-width: 992px) {
-  .vision .testimonial-item p {
-    width: 80%;
-  }
-}
-@media (max-width: 992px) {
+/*@media (max-width: 992px) {
 
 .vision .title-02 { 
 
   padding-bottom: 12em;
 
 }
-}
+}*/
 /*--------------------------------------------------------------
 # My Portfolio
 --------------------------------------------------------------*/
