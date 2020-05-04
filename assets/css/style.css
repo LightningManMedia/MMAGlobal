@@ -841,7 +841,12 @@ Animation
   margin: 0 auto 15px auto;
   color: #eee;
 }
-
+.vision .title-01 h3 { 
+  padding-left: 2%;
+}
+.vision .title-02 h3 { 
+  padding-left: 4%;
+}
 @media (max-width: 575px) {
 
   .vision  {
@@ -856,6 +861,7 @@ Animation
     margin: 0;
     top: 43%;
   }
+
 .vision .title-02 { 
 
  padding-top: 0;
@@ -870,6 +876,15 @@ text-align: center;
   left: 0;
   padding-left: 10px;
   padding-right: 10px;
+}
+.vision .title-02 h3 { 
+  padding-right: 35% !important;
+  padding-left: 0 !important;
+  position: relative;
+}
+.vision .title-01 h3 { 
+  padding-left: 4%;
+  position: relative;
 }
 
 }
