@@ -19,11 +19,11 @@ a {
 }
 
 a:hover {
-  color: #ffc85a;
+  color: #4084d0;
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .logo {
   font-family: 'Rubik', sans-serif;
   text-transform: uppercase;
   color: white;
@@ -79,6 +79,19 @@ h3 {
   height: 60px;
 }
 
+.logo { 
+  position: relative;
+  top: 0;
+  left: 2%;
+  font-weight: 600;
+}
+@media (max-width: 992px) {
+.logo { 
+  position: absolute;
+  top: 15px;
+}
+
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -104,7 +117,7 @@ h3 {
   color: #fff;
   padding: 10px 15px;
   transition: 0.3s;
-  font-size: 12px;
+  font-size: 15px;
   font-family: "Rubik", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
