@@ -311,11 +311,21 @@ h3 {
   position: relative;
 }
 
-.title-02 { 
-  padding-left: 70%;
+#hero .title-02 h3{ 
+
+    padding-left: 3%;
+
 }
-.title-01 { 
-  padding-left: 10%;
+#hero .title-02 { 
+  position: absolute;
+  right: 20%;
+  top: 60%;
+}
+#hero .title-01 { 
+position: absolute;
+left: 13%;
+top: 29%;
+
 }
 
 .title-01 h3, .title-02 h3 { 
@@ -361,8 +371,11 @@ h3 {
 }
 
 .bottom-third { 
-  align-items: center;
-  text-align: center;
+bottom: 8%;
+position: absolute;
+left: 0;
+right: 0;
+text-align: center;
 }
 .separate { 
   padding-bottom: 15%;
@@ -371,6 +384,10 @@ h3 {
   transition: 0.4s;
   color: rgba(255, 255, 255, 0.6);
   animation: up-down 1s ease-in-out infinite alternate-reverse both;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 2%;
 }
 
 #hero .btn-scroll i {
@@ -399,12 +416,35 @@ h3 {
   .title-02, .title-01 { 
     padding-left: 0;
   }
-  .title-02 { 
-    padding-top: 40%;
+  #hero .title-01, #hero .title-02 { 
+    position: absolute;
+left: 0;
+right: 0;
+text-align: center;
+top: 12%;
+  }
+  #hero .title-02 { 
+    padding: 0;
+    top: 50%;
+
+  }
+  #hero .title-01 h3 { 
+    padding: 0 !important;
+    padding-right: 24% !important;
+  }
+
+  #hero .title-02 h3 { 
+    padding-right: 30%;
+  }
+  .bottom-third { 
+    bottom: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
   #hero { 
     background: url("../img/mobile-hero.png") top right;
-    background-size: cover !important;
+    background-size: contain !important;
+    background-repeat: no-repeat;
 
   }
   #hero .hero-container { 
@@ -813,10 +853,10 @@ padding-right: 13%;
   margin-bottom: 40px;
 }
 
-.vision .title-01 h3 { 
-  padding-left: 2%;
+ .title-01 h3 { 
+  padding-left: 16px;
 }
-.vision .title-02 h3 { 
+.title-02 h3 { 
   padding-left: 4%;
 }
 @media (max-width: 575px) {
