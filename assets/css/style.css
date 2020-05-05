@@ -332,12 +332,12 @@ h3 {
 }
 #hero .title-02 { 
   position: absolute;
-  right: 20%;
+  right: 5%;
   top: 60%;
 }
 #hero .title-01 { 
 position: absolute;
-left: 13%;
+left: 9%;
 top: 29%;
 
 }
@@ -370,9 +370,22 @@ top: 29%;
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 64px;
+  /*font-size: 64px;*/
   color: #fff;
 
+}
+#hero h1 { 
+  font-size: 8vw;
+}
+
+#hero h3 { 
+  font-size: 4vw;
+}
+@media (max-width: 1024px) {
+  #hero h1 { 
+    font-size: 9vw;
+
+  }
 }
 
 #hero h2 {
@@ -417,16 +430,29 @@ text-align: center;
     background-attachment: fixed;
   }
 }
-@media (max-width: 870px) {
+/* @media (max-width: 870px) {
  #hero .title-02 { 
     padding-left: 50%;
   }
 
+} */
+@media (max-width: 768px) {
+
+#hero h1 { 
+  font-size: 10vw;
 }
+#hero h3 { 
+  font-size: 5vw;
+}
+}
+
+
+
+
 @media (max-width: 575px) {
-  #hero h1 {
+  /* #hero h1 {
     font-size: 55px;
-  }
+  } */
   .title-02, .title-01 { 
     padding-left: 0;
   }
@@ -442,6 +468,7 @@ top: 12%;
     top: 50%;
 
   }
+
   #hero .title-01 h3 { 
     padding: 0 !important;
     padding-right: 24% !important;
@@ -464,9 +491,11 @@ top: 12%;
   #hero .hero-container { 
     align-items: center;
   }
-  #hero h2 {
-    text-align: center;
-    margin-bottom: 30px;
+  #hero h1 { 
+    font-size: 14vw;
+  }
+  #hero h3 { 
+    font-size: 7vw;
   }
 }
 
@@ -929,6 +958,9 @@ padding-right: 13%;
   font-size: 8vw;
 }
 
+.vision h3 { 
+  font-size: 4vw;
+}
 @media (max-width: 1024px) {
   .vision h1 { 
     font-size: 9vw;
@@ -994,7 +1026,7 @@ padding-right: 13%;
 
  padding-top: 0;
  position: absolute;
- top: 56%;
+ top: 57%;
  left: 20%;
 text-align: center;
 }
@@ -1014,7 +1046,13 @@ text-align: center;
   padding-left: 4%;
   position: relative;
 }
+.vision h1 { 
+  font-size: 14vw;
+}
 
+.vision h3 { 
+  font-size: 7vw;
+}
 }
 
 @media (max-width: 400px) {
