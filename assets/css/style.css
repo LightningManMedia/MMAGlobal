@@ -1383,7 +1383,7 @@ text-align: center;
 # About
 --------------------------------------------------------------*/
 #about {
-  background: url("../img/asset-2-v1.png") top center no-repeat;
+  background: url("../img/MMAGlobal_R2_Forward_992x244.jpg") top center no-repeat;
   background-size: contain;
   color: #fff;
   font-size: 14px;
@@ -1391,8 +1391,23 @@ text-align: center;
   padding: 80px 0;
   position: relative;
 }
+@media (max-width: 992px) {
+  #about {
+    background: url("../img/MMAGlobal_R2_Forward_768x244.jpg") top center no-repeat;
+    background-size: contain;
+  }
+}
+@media (max-width: 768px) {
+  #about {
+
+  background-size: cover;
+  }
+}
+
 @media (max-width: 575px) {
   #about { 
+    background: url("../img/MMAGlobal_R2_Forward_576x271.jpg") top center no-repeat;
+
   background-size: cover;
   }
 }
