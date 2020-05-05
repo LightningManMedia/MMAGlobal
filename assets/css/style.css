@@ -329,6 +329,15 @@ nav {
   background-size: cover;
   position: relative;
 }
+/* @media (min-width: 992px) { 
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/asset-3-v2.png") top right no-repeat;
+  background-size: contain;
+  position: relative;
+}
+} */
 
 #hero .title-02 h3{ 
 
@@ -960,11 +969,11 @@ padding-left: 13%;
 padding-right: 13%;
 }
 .vision h1 { 
-  font-size: 8vw;
+  font-size: 6vw;
 }
 
 .vision h3 { 
-  font-size: 4vw;
+  font-size: 3vw;
 }
 @media (max-width: 1024px) {
   .vision h1 { 
@@ -972,14 +981,6 @@ padding-right: 13%;
 
   }
 }
-/*
-@media (max-width: 768px) {
-  .vision h1 { 
-    font-size: 9vw;
-
-  }
-}
-*/
 .vision .title-01 { 
   position: absolute;
   padding: 0;
@@ -1051,13 +1052,7 @@ text-align: center;
   padding-left: 4%;
   position: relative;
 }
-.vision h1 { 
-  font-size: 14vw;
-}
 
-.vision h3 { 
-  font-size: 7vw;
-}
 }
 
 @media (max-width: 400px) {
@@ -1068,27 +1063,13 @@ text-align: center;
 
 }
 
-/*.vision .title-02 h3 { 
-  padding-right: 25%;
-}*/
-
 @media (min-width: 1024px) {
   .vision {
     background-attachment: fixed;
-   /* background: url("../img/MMAGlobal_R2_Khabib_1200.jpg") top right;
-    background-repeat: no-repeat; */
-
   }
 }
 
-/*@media (max-width: 992px) {
 
-.vision .title-02 { 
-
-  padding-bottom: 12em;
-
-}
-}*/
 /*--------------------------------------------------------------
 # My Portfolio
 --------------------------------------------------------------*/
