@@ -926,26 +926,33 @@ padding-left: 13%;
 padding-right: 13%;
 }
 .vision h1 { 
-  font-size: 5em;
+  font-size: 8vw;
 }
 
 @media (max-width: 1024px) {
   .vision h1 { 
-    font-size: 3.2em;
+    font-size: 9vw;
 
   }
 }
+/*
+@media (max-width: 768px) {
+  .vision h1 { 
+    font-size: 9vw;
 
+  }
+}
+*/
 .vision .title-01 { 
   position: absolute;
   padding: 0;
-  left: 10%;
-  top: 20%;
+  left: 2%;
+  top: 30%;
 }
 .vision .title-02 { 
   position: absolute;
   left: 60%;
-  top: 40%;
+  top: 55%;
   padding: 0;
 }
 .vision::before {
@@ -1025,6 +1032,9 @@ text-align: center;
 @media (min-width: 1024px) {
   .vision {
     background-attachment: fixed;
+   /* background: url("../img/MMAGlobal_R2_Khabib_1200.jpg") top right;
+    background-repeat: no-repeat; */
+
   }
 }
 
